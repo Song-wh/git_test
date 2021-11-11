@@ -1,0 +1,955 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  height: 103px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  z-index: 9999;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+header nav a {
+  width: 400px;
+  height: 100%;
+  position: relative;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+header nav a img {
+  width: 100px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav a p {
+  width: 290px;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+header nav ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 100%;
+  left: 20%;
+}
+
+header nav ul a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+header nav ul a li {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 100px;
+}
+
+section.matchingMain {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.matchingMain div.matchingMainText {
+  width: 1000px;
+  position: relative;
+  top: 150px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+section.matchingMain div.matchingMainText p {
+  text-align: center;
+  font-size: 60px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.matchingMain div.matchingMainText p span {
+  color: black;
+}
+
+section.matchingMain div.matchingContent {
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  left: 50%;
+  margin-left: -450px;
+  top: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.matchingMain div.matchingContent img {
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+section.matchingMain div.matchingContent div {
+  width: 650px;
+  height: 100%;
+  margin-left: 50px;
+}
+
+section.matchingMain div.matchingContent div p {
+  position: relative;
+  top: 40%;
+  font-size: 40px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.matchingMain div.matchingContent div p span {
+  color: black;
+  font-weight: bold;
+}
+
+section.matchingMain article.startBox {
+  width: 1000px;
+  height: 200px;
+  position: relative;
+  top: 250px;
+  left: 50%;
+  margin-left: -500px;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+
+section.matchingMain article.startBox p {
+  position: relative;
+  top: 50px;
+  font-size: 30px;
+}
+
+section.matchingMain article.startBox p span {
+  font-size: 20px;
+}
+
+section.matchingMain article.startBox div.guide {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  float: right;
+  margin-top: -50px;
+  margin-right: 10px;
+}
+
+section.matchingMain article.startBox div.guide p {
+  color: white;
+  text-align: center;
+}
+
+section.matchingMain article.startBox div.join {
+  width: 150px;
+  margin-top: -50px;
+  margin-right: 10px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  float: right;
+}
+
+section.matchingMain article.startBox div.join p {
+  color: white;
+  text-align: center;
+}
+
+section.platformMat {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.platformMat div.platformText {
+  width: 1000px;
+  height: 60px;
+  position: relative;
+  top: 150px;
+  left: 50%;
+  margin-left: -500px;
+  border-bottom: 3px solid black;
+}
+
+section.platformMat div.platformText p {
+  font-size: 30px;
+  text-align: center;
+}
+
+section.platformMat article.matching_content {
+  width: 1100px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  top: 200px;
+  margin-left: -550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.platformMat article.matching_content div.mat_con_text {
+  width: 40%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section.platformMat article.matching_content div.mat_con_text p {
+  width: 80%;
+  font-size: 80px;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+section.platformMat article.matching_content div.mat_con_text p span {
+  display: inline-block;
+  font-size: 17px;
+  margin-top: 20%;
+}
+
+section.platformMat article.matching_content div.mat_con_circle {
+  width: 60%;
+  height: 100%;
+  border: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section.mat_partner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.mat_partner div.mat_partner_text {
+  width: 1000px;
+  height: 60px;
+  position: relative;
+  top: 150px;
+  left: 50%;
+  margin-left: -500px;
+  border-bottom: 3px solid black;
+}
+
+section.mat_partner div.mat_partner_text p {
+  font-size: 30px;
+  text-align: center;
+}
+
+section.mat_partner div.mat_partner_sub_text {
+  width: 800px;
+  height: 60px;
+  position: relative;
+  top: 180px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+section.mat_partner div.mat_partner_sub_text p {
+  font-size: 16px;
+  text-align: center;
+}
+
+section.mat_partner div.mat_partner_img {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  top: 180px;
+  left: 50%;
+  margin-left: -450px;
+}
+
+section.mat_partner div.mat_partner_img img {
+  width: 100%;
+  height: 95%;
+}
+
+section.mat_partner div.mat_partner_img p {
+  width: 100%;
+  height: 5%;
+  text-align: center;
+}
+
+section.matching_advantages {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.matching_advantages div.mat_advantages_text {
+  width: 1100px;
+  height: 60px;
+  position: relative;
+  left: 50%;
+  margin-left: -550px;
+  border-bottom: 3px solid black;
+}
+
+section.matching_advantages div.mat_advantages_text p {
+  font-size: 30px;
+  text-align: center;
+}
+
+section.matching_advantages div.mat_advantages_sub_text {
+  width: 600px;
+  height: 120px;
+  position: relative;
+  left: 50%;
+  margin-left: -300px;
+}
+
+section.matching_advantages div.mat_advantages_sub_text p {
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section.matching_advantages div.mat_advantages_sub_text p span {
+  font-size: 15px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+section.matching_advantages div.mat_search_standard {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  margin-left: -500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.matching_advantages div.mat_search_standard article {
+  width: 60%;
+  height: 100%;
+}
+
+section.matching_advantages div.mat_search_standard article div {
+  width: 300px;
+  height: 40px;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  color: #ffb428;
+  line-height: 40px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  top: 10%;
+}
+
+section.matching_advantages div.mat_search_standard article p {
+  position: relative;
+  top: 20%;
+}
+
+section.matching_advantages div.mat_search_standard img {
+  width: 100%;
+  height: 100%;
+}
+
+section.matching_advantages_two {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.matching_advantages_two div.mat_advantages_two_text {
+  width: 1100px;
+  height: 60px;
+  position: relative;
+  left: 50%;
+  margin-left: -550px;
+  border-bottom: 3px solid black;
+}
+
+section.matching_advantages_two div.mat_advantages_two_text p {
+  font-size: 30px;
+  text-align: center;
+}
+
+section.matching_advantages_two div.mat_advantages_two_sub_text {
+  width: 600px;
+  height: 120px;
+  position: relative;
+  left: 50%;
+  margin-left: -300px;
+}
+
+section.matching_advantages_two div.mat_advantages_two_sub_text p {
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section.matching_advantages_two div.mat_advantages_two_sub_text p span {
+  font-size: 15px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+section.matching_advantages_two article.matching_system {
+  width: 1200px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  margin-left: -600px;
+}
+
+section.matching_advantages_two div.matching_system_one {
+  width: 100%;
+  height: 48%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.matching_advantages_two div.matching_system_one div.game_circle {
+  width: 200px;
+  height: 200px;
+  position: inherit;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 15%;
+}
+
+section.matching_advantages_two div.matching_system_one div.game_circle p {
+  position: inherit;
+  top: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+section.matching_advantages_two div.matching_system_one div.publishing_circle {
+  width: 100px;
+  height: 100px;
+  position: inherit;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 33%;
+  left: 5%;
+}
+
+section.matching_advantages_two div.matching_system_one div.publishing_circle p {
+  position: inherit;
+  top: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+section.matching_advantages_two div.matching_system_one div.publishing_box {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 15px;
+  left: 10%;
+  top: 5%;
+}
+
+section.matching_advantages_two div.matching_system_one div.publishing_box p {
+  position: inherit;
+  top: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+
+section.matching_advantages_two div.matching_system_one div.developer_box {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 15px;
+  left: 15%;
+  top: 5%;
+}
+
+section.matching_advantages_two div.matching_system_one div.developer_box p {
+  position: inherit;
+  top: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+
+section.matching_advantages_two div.matching_system_one div.judge_circle {
+  width: 100px;
+  height: 100px;
+  position: inherit;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 33%;
+  left: 20%;
+}
+
+section.matching_advantages_two div.matching_system_one div.judge_circle p {
+  position: inherit;
+  top: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+section.matching_advantages_two div.matching_system_middle_text {
+  width: 100%;
+  height: 4%;
+  position: relative;
+  text-align: center;
+}
+
+section.matching_advantages_two div.matching_system_two {
+  width: 100%;
+  height: 48%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.matching_advantages_two div.matching_system_two div.publisher_circle {
+  width: 200px;
+  height: 200px;
+  position: inherit;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 15%;
+}
+
+section.matching_advantages_two div.matching_system_two div.publisher_circle p {
+  position: inherit;
+  top: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+section.matching_advantages_two div.matching_system_two div.developer_circle {
+  width: 100px;
+  height: 100px;
+  position: inherit;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 33%;
+  left: 5%;
+}
+
+section.matching_advantages_two div.matching_system_two div.developer_circle p {
+  position: inherit;
+  top: 30px;
+  text-align: center;
+  font-size: 15px;
+}
+
+section.matching_advantages_two div.matching_system_two div.game_box {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 15px;
+  left: 10%;
+  top: 5%;
+}
+
+section.matching_advantages_two div.matching_system_two div.game_box p {
+  position: inherit;
+  top: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+
+section.matching_advantages_two div.matching_system_two div.developer_box_two {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 15px;
+  left: 15%;
+  top: 5%;
+}
+
+section.matching_advantages_two div.matching_system_two div.developer_box_two p {
+  position: inherit;
+  top: 20%;
+  text-align: center;
+  font-size: 15px;
+}
+
+section.matching_advantages_two div.matching_system_two div.judge_circle_two {
+  width: 100px;
+  height: 100px;
+  position: inherit;
+  background-color: black;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 33%;
+  left: 20%;
+}
+
+section.matching_advantages_two div.matching_system_two div.judge_circle_two p {
+  position: inherit;
+  top: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+section.matching_advantages_three {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.matching_advantages_three div.mat_advantages_three_text {
+  width: 1100px;
+  height: 60px;
+  position: relative;
+  left: 50%;
+  margin-left: -550px;
+  border-bottom: 3px solid black;
+}
+
+section.matching_advantages_three div.mat_advantages_three_text p {
+  font-size: 30px;
+  text-align: center;
+}
+
+section.matching_advantages_three div.mat_advantages_three_sub_text {
+  width: 700px;
+  height: 120px;
+  position: relative;
+  left: 50%;
+  margin-left: -350px;
+}
+
+section.matching_advantages_three div.mat_advantages_three_sub_text p {
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section.matching_advantages_three div.mat_advantages_three_sub_text p span {
+  font-size: 15px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+section.matching_advantages_three img {
+  width: 1000px;
+  height: 600px;
+  position: relative;
+  left: 50%;
+  margin-left: -500px;
+}
+
+section.matching_advantages_three p.attend_box {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  top: 5%;
+}
+
+section.attend_method {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+section.attend_method article.attend_method_main {
+  width: 100%;
+  height: 50%;
+  background-color: #2c2c2c;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box {
+  width: 70%;
+  height: 50%;
+  position: relative;
+  left: 25%;
+  top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box p.devel_text {
+  position: inherit;
+  top: 40%;
+  color: #ffb428;
+  font-size: 30px;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_join {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  background-color: #ffb428;
+  border-radius: 50%;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_join p {
+  position: relative;
+  top: 30%;
+  color: #161616;
+  font-size: 30px;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_join p span {
+  font-size: 15px;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_game_intro {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 5%;
+  left: 10%;
+  background-color: #ffb428;
+  border-radius: 50%;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_game_intro p {
+  position: relative;
+  top: 30%;
+  color: #161616;
+  font-size: 30px;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_game_intro p span {
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_developer_list {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 5%;
+  left: 15%;
+  background-color: #ffb428;
+  border-radius: 50%;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_developer_list p {
+  position: relative;
+  top: 30%;
+  color: #161616;
+  font-size: 30px;
+}
+
+section.attend_method article.attend_method_main div.attend_developer_box div.cross_developer_list p span {
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+section.attend_method div.attend_publisher_box {
+  width: 70%;
+  height: 80%;
+  position: relative;
+  left: 23.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.attend_method div.attend_publisher_box p.publisher_text {
+  position: inherit;
+  color: #ffb428;
+  font-size: 30px;
+  top: 20%;
+}
+
+section.attend_method div.attend_publisher_box div.cross_join_two {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 5%;
+  background-color: #ffb428;
+  border-radius: 50%;
+}
+
+section.attend_method div.attend_publisher_box div.cross_join_two p {
+  position: relative;
+  top: 30%;
+  color: #161616;
+  font-size: 30px;
+}
+
+section.attend_method div.attend_publisher_box div.cross_join_two p span {
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+section.attend_method div.attend_publisher_box div.cross_game_search {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 10%;
+  background-color: #ffb428;
+  border-radius: 50%;
+}
+
+section.attend_method div.attend_publisher_box div.cross_game_search p {
+  position: relative;
+  top: 30%;
+  color: #161616;
+  font-size: 30px;
+}
+
+section.attend_method div.attend_publisher_box div.cross_game_search p span {
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+section.attend_method div.attend_publisher_box div.cross_publisher_list {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 15%;
+  background-color: #ffb428;
+  border-radius: 50%;
+}
+
+section.attend_method div.attend_publisher_box div.cross_publisher_list p {
+  position: relative;
+  top: 30%;
+  color: #161616;
+  font-size: 30px;
+}
+
+section.attend_method div.attend_publisher_box div.cross_publisher_list p span {
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+section.attend_method article.tip_box_main {
+  width: 100%;
+  height: 50%;
+  background-color: #ffb428;
+}
+
+section.attend_method article.tip_box_main div.tip_box {
+  width: 50%;
+  height: 70%;
+  position: relative;
+  left: 25%;
+  background-color: white;
+  top: 10%;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section.attend_method article.tip_box_main div.tip_box p {
+  position: relative;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  top: 5%;
+}
+
+section.attend_method article.tip_box_main div.tip_box p span {
+  display: block;
+  font-size: 20px;
+  color: black;
+  line-height: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 16%;
+  background-color: #161616;
+  position: relative;
+  color: white;
+}
+
+footer div {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 15%;
+  float: left;
+}
+
+footer div ul {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  font-size: 16px;
+}
+
+footer div ul li {
+  width: 10%;
+  display: inline-block;
+  cursor: pointer;
+}
+/*# sourceMappingURL=sub2.css.map */

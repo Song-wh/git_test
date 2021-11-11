@@ -1,0 +1,1486 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  height: 103px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  z-index: 9999;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+header nav a {
+  width: 400px;
+  height: 100%;
+  position: relative;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+header nav a img {
+  width: 100px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav a p {
+  width: 290px;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+header nav ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 100%;
+  left: 20%;
+}
+
+header nav ul a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+header nav ul a li {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 100px;
+}
+
+section.serviceMain {
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.serviceMain div.serviceHead {
+  width: 800px;
+  height: 100px;
+  position: relative;
+  top: 150px;
+  left: 50%;
+  margin-left: -400px;
+}
+
+section.serviceMain div.serviceHead p {
+  text-align: center;
+  font-size: 70px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.serviceMain div.serviceHead p span {
+  color: black;
+}
+
+section.serviceMain div.promotionBox {
+  position: relative;
+  width: 1000px;
+  height: 400px;
+  top: 20%;
+  left: 50%;
+  margin-left: -500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.serviceMain div.promotionBox img {
+  width: 400px;
+  height: 100%;
+}
+
+section.serviceMain div.promotionBox div {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  border-left: 1px solid black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section.serviceMain div.promotionBox div p {
+  margin-left: 10%;
+  margin-top: 15%;
+  font-size: 33px;
+  line-height: 60px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.serviceMain div.promotionBox div p span {
+  color: black;
+}
+
+section.serviceMain article.startBox {
+  width: 1000px;
+  height: 200px;
+  position: relative;
+  top: 250px;
+  left: 50%;
+  margin-left: -500px;
+  border: 4px solid black;
+  border-radius: 30px;
+}
+
+section.serviceMain article.startBox p {
+  position: relative;
+  top: 50px;
+  font-size: 30px;
+  left: 10px;
+}
+
+section.serviceMain article.startBox p span {
+  font-size: 20px;
+}
+
+section.serviceMain article.startBox div.guide {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  float: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+
+section.serviceMain article.startBox div.guide p {
+  color: white;
+  text-align: center;
+  margin-left: -20px;
+}
+
+section.serviceMain article.startBox div.join {
+  width: 150px;
+  margin-top: -50px;
+  margin-right: 20px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  float: right;
+}
+
+section.serviceMain article.startBox div.join p {
+  color: white;
+  text-align: center;
+  margin-left: -20px;
+}
+
+section.serviceSub {
+  background-color: #ffb428;
+  width: 100%;
+  height: 100%;
+}
+
+section.serviceSub div.tip_1 {
+  width: 70%;
+  height: 100px;
+  margin-left: 15%;
+  text-align: center;
+}
+
+section.serviceSub div.tip_1 p {
+  color: rgba(41, 41, 41, 0.3);
+  font-size: 90px;
+}
+
+section.serviceSub .font_S {
+  font-size: 50px;
+}
+
+section.serviceSub .font_W {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+section.serviceSub div.tip_2 {
+  position: relative;
+  width: 70%;
+  height: 100px;
+  top: 10%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+section.serviceSub div.tip_2 p {
+  font-size: 30px;
+}
+
+section.serviceSub div.tip_3 {
+  background-color: white;
+  position: relative;
+  width: 60%;
+  height: 400px;
+  top: 15%;
+  margin-left: 20%;
+  text-align: center;
+  border-radius: 70px;
+}
+
+section.serviceSub div.tip_3 p {
+  position: relative;
+  top: 25%;
+  font-size: 50px;
+}
+
+section.serviceSub div.tip_3 p span {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+section.serviceSub div.tip_4 {
+  position: relative;
+  width: 60%;
+  height: 80px;
+  top: 20%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+section.serviceSub div.tip_4 p {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.serviceSub div.tip_4 .font_S {
+  font-size: 35px;
+}
+
+section.serviceSub div.tip_4 .font_W {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+}
+
+section.fifth {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+}
+
+section.fifth article.fifContentBox_1 {
+  position: relative;
+  top: 10%;
+  width: 50%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 {
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  display: inline-block;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_1 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_1 p {
+  position: relative;
+  font-size: 30px;
+  top: 50px;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_2 {
+  width: 100%;
+  height: 25%;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_2 ul {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_2 li {
+  position: relative;
+  top: 60%;
+  width: 33.3%;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 img {
+  margin-top: 20px;
+  position: relative;
+  width: 90%;
+  height: 25%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_3 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_3 p {
+  font-size: 20px;
+}
+
+section.fifth article.fifContentBox_2 {
+  position: relative;
+  top: 10%;
+  width: 50%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 {
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  display: inline-block;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_1 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_1 p {
+  position: relative;
+  font-size: 30px;
+  top: 50px;
+  color: red;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_2 {
+  width: 100%;
+  height: 25%;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_2 ul {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_2 li {
+  position: relative;
+  top: 60%;
+  width: 33.3%;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 img {
+  margin-top: 20px;
+  position: relative;
+  width: 90%;
+  height: 25%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_3 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_3 p {
+  font-size: 20px;
+}
+
+section.third {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.third article.contentBox {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+
+section.third article.contentBox div.contentBox_1 {
+  width: 1200px;
+  height: 350px;
+}
+
+section.third article.contentBox div.contentBox_1 p {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.third article.contentBox div.contentBox_1 p span {
+  display: inline-block;
+  font-size: 20px;
+}
+
+section.third article.contentBox div.contentBox_1 p .font_S {
+  font-size: 40px;
+}
+
+section.third article.contentBox div.contentBox_1 p .font_W {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  font-size: 40px;
+}
+
+section.third article.contentBox div.contentBox_2 {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.third article.contentBox div.contentBox_2 div.media {
+  width: 200px;
+  height: 100%;
+  border: 10px solid rgba(53, 53, 53, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+
+section.third article.contentBox div.contentBox_2 div.media p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40%;
+}
+
+section.third article.contentBox div.contentBox_2 div.mediaTxt {
+  position: relative;
+  width: 550px;
+  height: 50%;
+  top: 30%;
+  left: 5%;
+}
+
+section.third article.contentBox div.contentBox_3 {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 5%;
+}
+
+section.third article.contentBox div.contentBox_3 div.max {
+  width: 200px;
+  height: 100%;
+  border: 10px solid rgba(53, 53, 53, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+
+section.third article.contentBox div.contentBox_3 div.max p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40%;
+}
+
+section.third article.contentBox div.contentBox_3 div.maxTxt {
+  position: relative;
+  width: 550px;
+  height: 50%;
+  top: 30%;
+  left: 5%;
+}
+
+section.fourth {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.fourth article.contentBox {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  left: 25%;
+  top: 10%;
+}
+
+section.fourth article.contentBox div.contentBox_1 {
+  width: 1200px;
+  height: 350px;
+}
+
+section.fourth article.contentBox div.contentBox_1 p {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+}
+
+section.fourth article.contentBox div.contentBox_1 p span {
+  display: inline-block;
+  font-size: 20px;
+}
+
+section.fourth article.contentBox div.contentBox_1 p .font_S {
+  font-size: 40px;
+}
+
+section.fourth article.contentBox div.contentBox_1 p .font_W {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  font-size: 40px;
+}
+
+section.fourth article.contentBox div.contentBox_2 {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.fourth article.contentBox div.contentBox_2 div.media {
+  width: 200px;
+  height: 100%;
+  border: 10px solid rgba(53, 53, 53, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+
+section.fourth article.contentBox div.contentBox_2 div.media p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35%;
+}
+
+section.fourth article.contentBox div.contentBox_2 div.mediaTxt {
+  position: relative;
+  width: 550px;
+  height: 50%;
+  top: 15%;
+  left: 5%;
+}
+
+section.fourth article.contentBox div.contentBox_3 {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 5%;
+}
+
+section.fourth article.contentBox div.contentBox_3 div.max {
+  width: 200px;
+  height: 100%;
+  border: 10px solid rgba(53, 53, 53, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+
+section.fourth article.contentBox div.contentBox_3 div.max p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 35%;
+}
+
+section.fourth article.contentBox div.contentBox_3 div.maxTxt {
+  position: relative;
+  width: 550px;
+  height: 50%;
+  top: 15%;
+  left: 5%;
+}
+
+section.advertising {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.advertising div.ad_1 {
+  background-color: white;
+  position: relative;
+  width: 60%;
+  height: 400px;
+  margin-left: 20%;
+  text-align: center;
+  border-radius: 70px;
+}
+
+section.advertising div.ad_1 p {
+  position: relative;
+  top: 15%;
+  font-size: 50px;
+}
+
+section.advertising div.ad_1 p span {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+section.advertising div.ad_2 {
+  position: relative;
+  width: 800px;
+  height: 150px;
+  left: 50%;
+  top: 10%;
+  margin-left: -400px;
+}
+
+section.advertising div.ad_2 p {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+  position: relative;
+  left: 10%;
+}
+
+section.advertising div.ad_2 p .font_S {
+  font-size: 40px;
+}
+
+section.advertising div.ad_2 p .font_S_s {
+  font-size: 20px;
+  position: relative;
+  left: 20%;
+}
+
+section.advertising div.ad_2 p .font_W {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  font-size: 60px;
+}
+
+section.advertising div.mediaAd {
+  position: relative;
+  width: 700px;
+  height: 80px;
+  left: 50%;
+  margin-left: -350px;
+  color: #ffb428;
+  background-color: black;
+  top: 30%;
+}
+
+section.advertising div.mediaAd p {
+  position: inherit;
+  text-align: center;
+  top: 20%;
+  font-size: 35px;
+}
+
+section.advertising_2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.advertising_2 div.ad_img {
+  position: relative;
+  width: 1100px;
+  height: 700px;
+  border: 1px solid black;
+  left: 50%;
+  margin-left: -550px;
+}
+
+section.advertising_2 div.freeMediaAd {
+  position: relative;
+  width: 700px;
+  height: 80px;
+  left: 50%;
+  margin-left: -350px;
+  color: #ffb428;
+  background-color: black;
+  top: 15%;
+}
+
+section.advertising_2 div.freeMediaAd p {
+  position: inherit;
+  text-align: center;
+  top: 20%;
+  font-size: 35px;
+}
+
+section.advertising_3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.advertising_3 div.ad_img_2 {
+  position: relative;
+  width: 900px;
+  height: 600px;
+  border: 1px solid black;
+  left: 50%;
+  margin-left: -450px;
+}
+
+section.advertising_3 div.freeAdText {
+  position: relative;
+  width: 1100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -550px;
+  top: 20%;
+}
+
+section.advertising_3 div.freeAdText p {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+  position: relative;
+  left: 10%;
+}
+
+section.advertising_3 div.freeAdText p .font_S {
+  font-size: 40px;
+}
+
+section.advertising_3 div.freeAdText p .font_S_s {
+  font-size: 25px;
+  position: relative;
+  left: 20%;
+}
+
+section.advertising_3 div.freeAdText p .font_W {
+  color: black;
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  font-size: 60px;
+}
+
+section.housePromotion {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #262631;
+}
+
+section.housePromotion div.houseProText {
+  position: relative;
+  width: 700px;
+  left: 50%;
+  margin-left: -350px;
+  top: 10%;
+}
+
+section.housePromotion div.houseProText p {
+  color: #ffb428;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+section.housePromotion div.houseCircle {
+  position: inherit;
+  background-color: #0c0c0c;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+section.housePromotion div.houseCircle p {
+  position: relative;
+  font-size: 20px;
+  top: 45%;
+  text-align: center;
+}
+
+section.revenuetype {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.revenuetype div.revenueText {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  left: 50%;
+  margin-left: -500px;
+}
+
+section.revenuetype div.revenueText p.reText_1 {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+section.revenuetype div.revenueText p.reText_1 .font_S {
+  font-size: 40px;
+}
+
+section.revenuetype div.revenueText p.reText_1 .font_S_s {
+  font-size: 25px;
+  position: relative;
+  left: 20%;
+  color: black;
+}
+
+section.revenuetype div.revenueText p.reText_1 .font_W {
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+section.revenuetype div.revenueText p.reText_2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+section.revenuetype div.revenueText p.reText_3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+section.revenuetype div.freeMediaAd_1 {
+  position: relative;
+  width: 700px;
+  height: 80px;
+  left: 50%;
+  margin-left: -350px;
+  color: #ffb428;
+  background-color: black;
+}
+
+section.revenuetype div.freeMediaAd_1 p {
+  position: inherit;
+  text-align: center;
+  top: 20%;
+  font-size: 35px;
+}
+
+section.revenuetype div.freeAdText_1 {
+  font-size: 20px;
+  text-align: center;
+  position: inherit;
+  top: 5%;
+}
+
+section.revenuetype img {
+  position: relative;
+  width: 500px;
+  height: 280px;
+  left: 50%;
+  margin-left: -250px;
+  top: 7%;
+  z-index: 2;
+}
+
+section.revenuetype_2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.revenuetype_2 div.mediaAdSystem {
+  position: relative;
+  width: 700px;
+  height: 80px;
+  left: 50%;
+  margin-left: -350px;
+  color: #ffb428;
+  background-color: black;
+  top: 5%;
+}
+
+section.revenuetype_2 div.mediaAdSystem p {
+  position: inherit;
+  text-align: center;
+  top: 20%;
+  font-size: 35px;
+}
+
+section.revenuetype_2 div.mediaAdText {
+  position: relative;
+  width: 600px;
+  height: 150px;
+  left: 50%;
+  margin-left: -300px;
+  text-align: center;
+  top: 10%;
+}
+
+section.revenuetype_2 div.mediaAdText p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section.revenuetype_2 img {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  left: 50%;
+  margin-left: -500px;
+  top: 7%;
+}
+
+section.revenuetype_2 div.mediaAdText_1 {
+  position: relative;
+  width: 1000px;
+  height: 150px;
+  left: 50%;
+  margin-left: -500px;
+  text-align: center;
+  top: 10%;
+}
+
+section.revenuetype_2 div.mediaAdText_1 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section.promotionDA {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.promotionDA div.adDA {
+  position: relative;
+  width: 700px;
+  height: 80px;
+  left: 50%;
+  margin-left: -350px;
+  color: #ffb428;
+  background-color: black;
+  top: 5%;
+}
+
+section.promotionDA div.adDA p {
+  position: inherit;
+  text-align: center;
+  top: 20%;
+  font-size: 35px;
+}
+
+section.promotionDA div.DAText {
+  width: 900px;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  margin-left: -450px;
+  top: 10%;
+  text-align: center;
+}
+
+section.promotionDA div.DAText p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+section.promotionDA img {
+  position: relative;
+  width: 700px;
+  height: 700px;
+  left: 50%;
+  margin-left: -350px;
+  top: 10%;
+}
+
+section.bannerPage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ffb428;
+}
+
+section.bannerPage div.banner {
+  position: relative;
+  width: 1000px;
+  height: 80px;
+  left: 50%;
+  margin-left: -500px;
+  color: #ffb428;
+  background-color: black;
+  top: 5%;
+}
+
+section.bannerPage div.banner p {
+  position: inherit;
+  text-align: center;
+  top: 20%;
+  font-size: 35px;
+}
+
+section.bannerPage div.bannerText {
+  width: 900px;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  margin-left: -450px;
+  top: 10%;
+  text-align: center;
+}
+
+section.bannerPage div.bannerText p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+section.bannerPage article.circleBox {
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  left: 50%;
+  margin-left: -500px;
+}
+
+section.bannerPage article.circleBox div.mezzoCircle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: red;
+  color: #ffb428;
+  border-radius: 50%;
+  top: 15%;
+  left: 20%;
+}
+
+section.bannerPage article.circleBox div.mezzoCircle p {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-size: 30px;
+}
+
+section.bannerPage article.circleBox div.adCircle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 50%;
+  color: #ffb428;
+  top: 15%;
+  left: 70%;
+}
+
+section.bannerPage article.circleBox div.adCircle p {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-size: 30px;
+}
+
+section.bannerPage article.circleBox div.thirdCircle {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 50%;
+  color: #ffb428;
+  top: 40%;
+  left: 45%;
+}
+
+section.bannerPage article.circleBox div.thirdCircle p {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  font-size: 30px;
+}
+
+section.attendPage {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-color: #ffb428;
+}
+
+section.attendPage div.attendText {
+  width: 900px;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  margin-left: -450px;
+  top: 10%;
+  text-align: center;
+}
+
+section.attendPage div.attendText p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+section.attendPage div.attendBox {
+  position: relative;
+  width: 400px;
+  height: 60px;
+  top: 40%;
+  left: 50%;
+  margin-left: -200px;
+}
+
+section.attendPage div.attendBox p {
+  font-size: 80px;
+  color: rgba(41, 41, 41, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+section.attendPage div.attendBox p .font_W {
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+section.joinAttend {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-color: #3d3d3d;
+}
+
+section.joinAttend article.joinBox {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 40%;
+  left: 15%;
+}
+
+section.joinAttend article.joinBox div.joinCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.joinBox div.joinCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.joinBox div.joinCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.joinBox div.contentCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.joinBox div.contentCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.joinBox div.contentCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.joinBox div.SDKCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.joinBox div.SDKCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.joinBox div.SDKCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.crossAd_1 {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -150px;
+  left: 55%;
+}
+
+section.joinAttend article.crossAd_1 div.joinCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.crossAd_1 div.joinCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.crossAd_1 div.joinCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.crossAd_1 div.contentCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.crossAd_1 div.contentCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.crossAd_1 div.contentCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.crossAd_1 div.SDKCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.crossAd_1 div.SDKCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.crossAd_1 div.SDKCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.crossAd_2 {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 55%;
+}
+
+section.joinAttend article.crossAd_2 div.joinCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.crossAd_2 div.joinCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.crossAd_2 div.joinCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.crossAd_2 div.contentCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.crossAd_2 div.contentCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.crossAd_2 div.contentCircle p span {
+  font-size: 20px;
+}
+
+section.joinAttend article.crossAd_2 div.SDKCircle {
+  position: relative;
+  background-color: #ffb428;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+section.joinAttend article.crossAd_2 div.SDKCircle p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+section.joinAttend article.crossAd_2 div.SDKCircle p span {
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 16%;
+  background-color: #161616;
+  position: relative;
+  color: white;
+}
+
+footer div {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 15%;
+  float: left;
+}
+
+footer div ul {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  font-size: 16px;
+}
+
+footer div ul li {
+  width: 10%;
+  display: inline-block;
+  cursor: pointer;
+}
+/*# sourceMappingURL=sub1.css.map */

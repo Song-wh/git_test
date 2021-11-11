@@ -1,0 +1,973 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+@mixin font_C {
+    color: rgb(255, 180, 40);
+}
+
+@mixin bg_C {
+    background-color: rgb(255, 180, 40);
+}
+
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+header {
+    position: fixed;
+    height: 103px;
+    width: 100%;
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    top: 0;
+    z-index: 9999;
+
+    nav {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        float: left;
+
+        a {
+            width: 400px;
+            height: 100%;
+            position: relative;
+            float: left;
+            display: flex;
+            cursor: pointer;
+
+            img {
+                width: 100px;
+                height: 100%;
+                box-sizing: border-box;
+            }
+
+            p {
+                width: 290px;
+                height: 100%;
+                text-align: center;
+                font-size: 40px;
+                line-height: 100px;
+            }
+        }
+
+        ul {
+            position: relative;
+            display: flex;
+            width: 1000px;
+            height: 100%;
+            left: 20%;
+
+            a {
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+
+                li {
+                    width: 100%;
+                    height: 100%;
+                    text-align: center;
+                    font-size: 20px;
+                    line-height: 100px;
+                }
+            }
+        }
+    }
+}
+
+section.matchingMain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include bg_C;
+
+    div.matchingMainText {
+        width: 1000px;
+        position: relative;
+        top: 150px;
+        left: 50%;
+        margin-left: -400px;
+
+        p {
+            text-align: center;
+            font-size: 60px;
+            color: rgba($color: #292929, $alpha: 0.3);
+
+            span {
+                color: black;
+            }
+        }
+    }
+
+    div.matchingContent {
+        position: relative;
+        width: 1000px;
+        height: 400px;
+        left: 50%;
+        margin-left: -450px;
+
+        top: 20%;
+        display: flex;
+
+        img {
+            width: 300px;
+            height: 100%;
+            border-right: 2px solid black;
+        }
+
+        div {
+            width: 650px;
+            height: 100%;
+            margin-left: 50px;
+
+            p {
+                position: relative;
+                top: 40%;
+                font-size: 40px;
+                color: rgba($color: #292929, $alpha: 0.3);
+
+                span {
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    article.startBox {
+        width: 1000px;
+        height: 200px;
+        position: relative;
+        top: 250px;
+        left: 50%;
+        margin-left: -500px;
+        border: 4px solid black;
+        border-radius: 30px;
+
+        p {
+            position: relative;
+            top: 50px;
+            font-size: 30px;
+
+
+            span {
+                font-size: 20px;
+            }
+        }
+
+        div.guide {
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            border-radius: 50%;
+            float: right;
+            margin-top: -50px;
+            margin-right: 10px;
+
+            p {
+                color: white;
+                text-align: center;
+            }
+        }
+
+        div.join {
+            width: 150px;
+            margin-top: -50px;
+            margin-right: 10px;
+            height: 150px;
+            background-color: black;
+            border-radius: 50%;
+            float: right;
+
+            p {
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+}
+
+section.platformMat {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include bg_C;
+
+    div.platformText {
+        width: 1000px;
+        height: 60px;
+        position: relative;
+        top: 150px;
+        left: 50%;
+        margin-left: -500px;
+        border-bottom: 3px solid black;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    article.matching_content {
+        width: 1100px;
+        height: 600px;
+        position: relative;
+        left: 50%;
+        top: 200px;
+        margin-left: -550px;
+        display: flex;
+
+        div.mat_con_text {
+            width: 40%;
+            height: 100%;
+            border: 1px solid black;
+            ;
+            box-sizing: border-box;
+
+            p {
+                width: 80%;
+                font-size: 80px;
+                margin-left: 10%;
+                margin-top: 20%;
+
+                span {
+                    display: inline-block;
+                    font-size: 17px;
+                    margin-top: 20%;
+                }
+            }
+        }
+
+        div.mat_con_circle {
+            width: 60%;
+            height: 100%;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+    }
+}
+
+section.mat_partner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include bg_C;
+
+    div.mat_partner_text {
+        width: 1000px;
+        height: 60px;
+        position: relative;
+        top: 150px;
+        left: 50%;
+        margin-left: -500px;
+        border-bottom: 3px solid black;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    div.mat_partner_sub_text {
+        width: 800px;
+        height: 60px;
+        position: relative;
+        top: 180px;
+        left: 50%;
+        margin-left: -400px;
+
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+
+    div.mat_partner_img {
+        width: 900px;
+        height: 600px;
+        position: relative;
+        top: 180px;
+        left: 50%;
+        margin-left: -450px;
+
+        img {
+            width: 100%;
+            height: 95%;
+        }
+
+        p {
+            width: 100%;
+            height: 5%;
+            text-align: center;
+
+        }
+    }
+}
+
+section.matching_advantages {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include bg_C;
+
+    div.mat_advantages_text {
+        width: 1100px;
+        height: 60px;
+        position: relative;
+        left: 50%;
+        margin-left: -550px;
+        border-bottom: 3px solid black;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    div.mat_advantages_sub_text {
+        width: 600px;
+        height: 120px;
+        position: relative;
+        left: 50%;
+        margin-left: -300px;
+
+        p {
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            margin-top: 30px;
+
+            span {
+                font-size: 15px;
+                line-height: 20px;
+                display: inline-block;
+            }
+        }
+    }
+
+    div.mat_search_standard {
+        width: 1000px;
+        height: 600px;
+        position: relative;
+        left: 50%;
+        margin-left: -500px;
+        display: flex;
+
+        article {
+            width: 60%;
+            height: 100%;
+
+            div {
+                width: 300px;
+                height: 40px;
+                background-color: black;
+                text-align: center;
+                position: relative;
+                @include font_C;
+                line-height: 40px;
+                border-radius: 20px;
+                font-size: 20px;
+                font-weight: bold;
+                top: 10%;
+            }
+
+            p {
+                position: relative;
+                top: 20%;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+section.matching_advantages_two {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include bg_C;
+
+    div.mat_advantages_two_text {
+        width: 1100px;
+        height: 60px;
+        position: relative;
+        left: 50%;
+        margin-left: -550px;
+        border-bottom: 3px solid black;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    div.mat_advantages_two_sub_text {
+        width: 600px;
+        height: 120px;
+        position: relative;
+        left: 50%;
+        margin-left: -300px;
+
+        p {
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            margin-top: 30px;
+
+            span {
+                font-size: 15px;
+                line-height: 20px;
+                display: inline-block;
+            }
+        }
+    }
+
+    article.matching_system {
+        width: 1200px;
+        height: 600px;
+        position: relative;
+        left: 50%;
+        margin-left: -600px;
+    }
+
+    div.matching_system_one {
+        width: 100%;
+        height: 48%;
+        position: relative;
+        display: flex;
+
+        div.game_circle {
+            width: 200px;
+            height: 200px;
+            position: inherit;
+            background-color: black;
+            @include font_C;
+            border-radius: 50%;
+            top: 15%;
+
+            p {
+                position: inherit;
+                top: 40px;
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+
+        div.publishing_circle {
+            width: 100px;
+            height: 100px;
+            position: inherit;
+            background-color: black;
+            @include font_C;
+            border-radius: 50%;
+            top: 33%;
+            left: 5%;
+
+            p {
+                position: inherit;
+                top: 30px;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+
+        div.publishing_box {
+            width: 200px;
+            height: 250px;
+            position: relative;
+            background-color: black;
+            @include font_C;
+            border-radius: 15px;
+            left: 10%;
+            top: 5%;
+
+            p {
+                position: inherit;
+                top: 20%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+
+        div.developer_box {
+            width: 200px;
+            height: 250px;
+            position: relative;
+            background-color: black;
+            @include font_C;
+            border-radius: 15px;
+            left: 15%;
+            top: 5%;
+
+            p {
+                position: inherit;
+                top: 20%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+
+        div.judge_circle {
+            width: 100px;
+            height: 100px;
+            position: inherit;
+            background-color: black;
+            @include font_C;
+            border-radius: 50%;
+            top: 33%;
+            left: 20%;
+
+            p {
+                position: inherit;
+                top: 30px;
+                text-align: center;
+                font-size: 13px;
+            }
+        }
+    }
+
+    div.matching_system_middle_text {
+        width: 100%;
+        height: 4%;
+        position: relative;
+        text-align: center;
+
+    }
+
+    div.matching_system_two {
+        width: 100%;
+        height: 48%;
+        position: relative;
+        display: flex;
+
+        div.publisher_circle {
+            width: 200px;
+            height: 200px;
+            position: inherit;
+            background-color: black;
+            @include font_C;
+            border-radius: 50%;
+            top: 15%;
+
+            p {
+                position: inherit;
+                top: 40px;
+                text-align: center;
+                font-size: 20px;
+            }
+        }
+
+        div.developer_circle {
+            width: 100px;
+            height: 100px;
+            position: inherit;
+            background-color: black;
+            @include font_C;
+            border-radius: 50%;
+            top: 33%;
+            left: 5%;
+
+            p {
+                position: inherit;
+                top: 30px;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+
+        div.game_box {
+            width: 200px;
+            height: 250px;
+            position: relative;
+            background-color: black;
+            @include font_C;
+            border-radius: 15px;
+            left: 10%;
+            top: 5%;
+
+            p {
+                position: inherit;
+                top: 20%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+
+        div.developer_box_two {
+            width: 200px;
+            height: 250px;
+            position: relative;
+            background-color: black;
+            @include font_C;
+            border-radius: 15px;
+            left: 15%;
+            top: 5%;
+
+            p {
+                position: inherit;
+                top: 20%;
+                text-align: center;
+                font-size: 15px;
+            }
+        }
+
+        div.judge_circle_two {
+            width: 100px;
+            height: 100px;
+            position: inherit;
+            background-color: black;
+            @include font_C;
+            border-radius: 50%;
+            top: 33%;
+            left: 20%;
+
+            p {
+                position: inherit;
+                top: 30px;
+                text-align: center;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+section.matching_advantages_three {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @include bg_C;
+
+    div.mat_advantages_three_text {
+        width: 1100px;
+        height: 60px;
+        position: relative;
+        left: 50%;
+        margin-left: -550px;
+        border-bottom: 3px solid black;
+
+        p {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    div.mat_advantages_three_sub_text {
+        width: 700px;
+        height: 120px;
+        position: relative;
+        left: 50%;
+        margin-left: -350px;
+
+        p {
+            font-size: 25px;
+            font-weight: 100;
+            text-align: center;
+            margin-top: 30px;
+
+            span {
+                font-size: 15px;
+                line-height: 20px;
+                display: inline-block;
+            }
+        }
+    }
+
+    img {
+        width: 1000px;
+        height: 600px;
+        position: relative;
+        left: 50%;
+        margin-left: -500px;
+    }
+
+    p.attend_box {
+        width: 100%;
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        position: relative;
+        top: 5%;
+    }
+}
+
+section.attend_method {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    article.attend_method_main {
+        width: 100%;
+        height: 50%;
+        background-color: rgb(44, 44, 44);
+
+        div.attend_developer_box {
+            width: 70%;
+            height: 50%;
+            position: relative;
+            left: 25%;
+            top: 3%;
+            display: flex;
+            text-align: center;
+
+            p.devel_text {
+
+                position: inherit;
+                top: 40%;
+                @include font_C;
+                font-size: 30px;
+            }
+
+            div.cross_join {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                top: 5%;
+                left: 5%;
+                @include bg_C;
+                border-radius: 50%;
+
+                p {
+                    position: relative;
+                    top: 30%;
+                    color: rgb(22, 22, 22);
+                    font-size: 30px;
+
+                    span {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            div.cross_game_intro {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                top: 5%;
+                left: 10%;
+                @include bg_C;
+                border-radius: 50%;
+
+                p {
+                    position: relative;
+                    top: 30%;
+                    color: rgb(22, 22, 22);
+                    font-size: 30px;
+
+                    span {
+                        display: block;
+                        line-height: 20px;
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            div.cross_developer_list {
+                width: 200px;
+                height: 200px;
+                position: relative;
+                top: 5%;
+                left: 15%;
+                @include bg_C;
+                border-radius: 50%;
+
+                p {
+                    position: relative;
+                    top: 30%;
+                    color: rgb(22, 22, 22);
+                    font-size: 30px;
+
+                    span {
+                        display: block;
+                        line-height: 20px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    div.attend_publisher_box {
+        width: 70%;
+        height: 80%;
+        position: relative;
+        left: 23.5%;
+        display: flex;
+        text-align: center;
+
+        p.publisher_text {
+            position: inherit;
+            @include font_C;
+            font-size: 30px;
+            top: 20%;
+        }
+
+        div.cross_join_two {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 5%;
+            @include bg_C;
+            border-radius: 50%;
+
+            p {
+                position: relative;
+                top: 30%;
+                color: rgb(22, 22, 22);
+                font-size: 30px;
+
+                span {
+                    display: block;
+                    line-height: 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        div.cross_game_search {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 10%;
+            @include bg_C;
+            border-radius: 50%;
+
+            p {
+                position: relative;
+                top: 30%;
+                color: rgb(22, 22, 22);
+                font-size: 30px;
+
+                span {
+                    display: block;
+                    line-height: 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        div.cross_publisher_list {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 15%;
+            @include bg_C;
+            border-radius: 50%;
+
+            p {
+                position: relative;
+                top: 30%;
+                color: rgb(22, 22, 22);
+                font-size: 30px;
+
+                span {
+                    display: block;
+                    line-height: 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    article.tip_box_main {
+        width: 100%;
+        height: 50%;
+        @include bg_C;
+        div.tip_box {
+            width : 50%;
+            height : 70%;
+            position: relative;
+            left : 25%;
+            background-color: white;
+            top : 10%;
+            border-radius: 30px;
+            font-weight: bold;
+            p {
+                position: relative;
+                text-align: center;
+                color : red;
+                font-size : 30px;
+                top : 5%;
+                span {
+                    display: block;
+                    font-size : 20px;
+                    color :black;
+                    line-height: 30px;
+                    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 16%;
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    color: white;
+
+    div {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        left: 15%;
+        float: left;
+
+        ul {
+            position: relative;
+            top: 45%;
+            width: 100%;
+            font-size: 16px;
+
+            li {
+                width: 10%;
+                display: inline-block;
+                cursor: pointer;
+
+            }
+        }
+    }
+}

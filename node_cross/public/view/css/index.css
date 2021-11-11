@@ -1,0 +1,749 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  height: 103px;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  z-index: 9999;
+}
+
+header nav {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+header nav a {
+  width: 400px;
+  height: 100%;
+  position: relative;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+header nav a img {
+  width: 100px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header nav a p {
+  width: 290px;
+  height: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+}
+
+header nav ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1000px;
+  height: 100%;
+  left: 20%;
+}
+
+header nav ul a {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+header nav ul a li {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 100px;
+}
+
+section.mainSection {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+}
+
+section.mainSection div {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  left: 25%;
+}
+
+section.mainSection div p {
+  color: #ffb428;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10%;
+}
+
+section.mainSection div p span {
+  font-size: 30px;
+  color: gray;
+  line-height: 40px;
+  display: inline-block;
+}
+
+section.sub {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+}
+
+section.sub article.boxOne {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+section.sub article.boxOne div.ad {
+  width: 50%;
+  height: 100%;
+}
+
+section.sub article.boxOne div.ad div.textBox {
+  position: relative;
+}
+
+section.sub article.boxOne div.ad div.textBox p {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+section.sub article.boxOne div.ad div.textBox p span {
+  font-size: 20px;
+  display: inline-block;
+}
+
+section.sub article.boxOne div.ad div.textBox a {
+  text-decoration: none;
+}
+
+section.sub article.boxOne div.ad div.textBox a div.service {
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -70px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+section.sub article.boxOne div.ad div.textBox a div.service p {
+  color: white;
+  position: relative;
+  top: 30%;
+  font-size: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+section.sub article.boxOne div.mat {
+  width: 50%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+section.sub article.boxOne div.mat div.textBoxTwo {
+  position: relative;
+}
+
+section.sub article.boxOne div.mat div.textBoxTwo p {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+section.sub article.boxOne div.mat div.textBoxTwo p span {
+  font-size: 20px;
+  display: inline-block;
+}
+
+section.sub article.boxOne div.mat div.textBoxTwo a {
+  text-decoration: none;
+}
+
+section.sub article.boxOne div.mat div.textBoxTwo a div.information {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -70px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+section.sub article.boxOne div.mat div.textBoxTwo a div.information p {
+  position: relative;
+  top: 30%;
+  color: black;
+  font-size: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+section.sub article.boxTwo {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+section.sub article.boxTwo div.SDK {
+  width: 50%;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+
+section.sub article.boxTwo div.SDK p {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+section.sub article.boxTwo div.SDK p span {
+  font-size: 20px;
+  display: inline-block;
+}
+
+section.sub article.boxTwo div.SDK div.down {
+  width: 200px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  border: 3px solid white;
+  border-radius: 15px;
+  top: 20%;
+}
+
+section.sub article.boxTwo div.SDK div.down p {
+  position: relative;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+section.sub article.boxTwo div.pattern {
+  width: 50%;
+  height: 100%;
+  color: black;
+  background-color: white;
+}
+
+section.sub article.boxTwo div.pattern p {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+section.sub article.boxTwo div.pattern p span {
+  font-size: 20px;
+  display: inline-block;
+}
+
+section.sub article.boxTwo div.pattern div.expected {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  border: 3px solid black;
+  border-radius: 15px;
+  top: 20%;
+}
+
+section.sub article.boxTwo div.pattern div.expected p {
+  position: relative;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+section.third {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  background-color: #ffb428;
+}
+
+section.third article.contentBox {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  left: 10%;
+  top: 14%;
+}
+
+section.third article.contentBox div.contentBox_1 {
+  width: 800px;
+  height: 350px;
+}
+
+section.third article.contentBox div.contentBox_1 p {
+  font-size: 40px;
+}
+
+section.third article.contentBox div.contentBox_1 p span {
+  display: inline-block;
+  font-size: 15px;
+}
+
+section.third article.contentBox div.contentBox_2 {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.third article.contentBox div.contentBox_2 div.media {
+  width: 200px;
+  height: 100%;
+  border: 10px solid rgba(53, 53, 53, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+
+section.third article.contentBox div.contentBox_2 div.media p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40%;
+}
+
+section.third article.contentBox div.contentBox_2 div.mediaTxt {
+  position: relative;
+  width: 550px;
+  height: 50%;
+  top: 30%;
+  left: 5%;
+}
+
+section.third article.contentBox div.contentBox_3 {
+  position: relative;
+  width: 800px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 5%;
+}
+
+section.third article.contentBox div.contentBox_3 div.max {
+  width: 200px;
+  height: 100%;
+  border: 10px solid rgba(53, 53, 53, 0.4);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+
+section.third article.contentBox div.contentBox_3 div.max p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40%;
+}
+
+section.third article.contentBox div.contentBox_3 div.maxTxt {
+  position: relative;
+  width: 550px;
+  height: 50%;
+  top: 30%;
+  left: 5%;
+}
+
+section.fourth {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+}
+
+section.fourth div {
+  position: relative;
+  width: 100%;
+  height: 5%;
+  top: 5%;
+}
+
+section.fourth div p {
+  text-align: center;
+  font-size: 40px;
+}
+
+section.fifth {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+}
+
+section.fifth article.fifHeadTxt {
+  position: relative;
+  width: 100%;
+  height: 5%;
+  top: 5%;
+}
+
+section.fifth article.fifHeadTxt p {
+  text-align: center;
+  font-size: 40px;
+}
+
+section.fifth article.fifHeadTxt p span {
+  color: red;
+}
+
+section.fifth article.fifContentBox_1 {
+  position: relative;
+  top: 10%;
+  width: 50%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 {
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  display: inline-block;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_1 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_1 p {
+  position: relative;
+  font-size: 30px;
+  top: 50px;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_2 {
+  width: 100%;
+  height: 25%;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_2 ul {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_2 li {
+  position: relative;
+  top: 60%;
+  width: 33.3%;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 img {
+  margin-top: 20px;
+  position: relative;
+  width: 90%;
+  height: 25%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_3 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_1 article.subContentBox_1 div.subTxtBox_3 p {
+  font-size: 20px;
+}
+
+section.fifth article.fifContentBox_2 {
+  position: relative;
+  top: 10%;
+  width: 50%;
+  height: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  background-color: #3d3d3d;
+  color: white;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 {
+  position: relative;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  display: inline-block;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_1 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_1 p {
+  position: relative;
+  font-size: 30px;
+  top: 50px;
+  color: red;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_2 {
+  width: 100%;
+  height: 25%;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_2 ul {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_2 li {
+  position: relative;
+  top: 60%;
+  width: 33.3%;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 img {
+  margin-top: 20px;
+  position: relative;
+  width: 90%;
+  height: 25%;
+  background-color: gray;
+  border-radius: 15px;
+  color: white;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_3 {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+section.fifth article.fifContentBox_2 article.subContentBox_2 div.subTxtBox_2_3 p {
+  font-size: 20px;
+}
+
+section.sixth {
+  position: relative;
+  width: 90%;
+  height: 100%;
+  left: 5%;
+  display: inline-block;
+  background-color: #3d3d3d;
+  color: #888888;
+}
+
+section.sixth article.contact {
+  width: 100%;
+  height: 20%;
+}
+
+section.sixth article.contact div {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  float: right;
+  right: 25%;
+  top: 50%;
+}
+
+section.sixth article.contact div p {
+  font-size: 70px;
+}
+
+section.sixth article.contactTxtBox_1 {
+  width: 100%;
+  height: 80%;
+  background-color: #3d3d3d;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_1 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 40%;
+  height: 80%;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_1 p {
+  font-size: 35px;
+  color: #888888;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_1 p span {
+  display: inline-block;
+  font-size: 70px;
+  color: #ffb428;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  height: 80%;
+  border-left: 1px solid #888888;
+  text-align: center;
+  color: white;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 p {
+  font-size: 20px;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 ul.essential {
+  position: relative;
+  float: left;
+  text-align: left;
+  left: 20%;
+  top: 10%;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 ul.essential li {
+  position: relative;
+  left: 10%;
+  margin-top: 10px;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 ul.question {
+  position: relative;
+  top: 40%;
+  float: right;
+  text-align: left;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 ul.question li {
+  margin-top: 30px;
+}
+
+section.sixth article.contactTxtBox_1 div.contactSubTxt_2 ul.question li a {
+  text-decoration: underline;
+  color: skyblue;
+}
+
+footer {
+  width: 100%;
+  height: 16%;
+  background-color: #161616;
+  position: relative;
+  color: white;
+}
+
+footer div {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 15%;
+  float: left;
+}
+
+footer div ul {
+  position: relative;
+  top: 45%;
+  width: 100%;
+  font-size: 16px;
+}
+
+footer div ul li {
+  width: 10%;
+  display: inline-block;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
